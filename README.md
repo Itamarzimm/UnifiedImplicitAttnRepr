@@ -18,11 +18,6 @@ The purpose of this repository is to provide tools for the explainability and in
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
     <!-- Section for supported models -->
     <div>
-        <style>
-            ul.no-bullets {
-                padding-left: 0; /* Removes the indentation */
-            }
-        </style>
         <h3> Supported Models:</h3>
         <ul class="no-bullets">
             <li><a href="https://arxiv.org/abs/2312.00752">Mamba</a></li>
