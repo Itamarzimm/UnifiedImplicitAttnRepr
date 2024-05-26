@@ -26,10 +26,12 @@ The purpose of this repository is to provide tools for the explainability and in
             <li><a href="https://arxiv.org/abs/2401.09417">Vision Mamba</a></li>
         </ul>
     </div>
+    <center>
     <div>
         <img src="assets/MainFig.jpg" alt="Left Image" width="500" height="200">
         <img src="assets/AttnMatandXAI.jpg" alt="Left Image" width="500" height="200">
     </div>
+    </center>
 </div>
 
 
