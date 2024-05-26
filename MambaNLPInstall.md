@@ -1,0 +1,16 @@
+## Installation Instructions for Mamba
+- conda create -n <your env> python=3.10.13
+- conda activate <your env>
+- git clone git@github.com:Itamarzimm/UnifiedImplicitAttnRepr.git
+- conda install nvidia/label/cuda-11.8.0::cuda-toolkit
+- pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
+- pip install packaging
+- pip install causal-conv1d==1.1.0
+- git clone git@github.com:Itamarzimm/MambaAccurateHiddenAttnNLP.git
+- cd MambaNLP
+- pip install -e . 
+- git clone https://github.com/EleutherAI/lm-evaluation-harness.git -b big-refactor
+- cd lm-evaluation-harness
+- pip install -e . 
+- pip install jupyter
+- pip install matplotlib
