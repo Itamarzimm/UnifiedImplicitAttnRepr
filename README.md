@@ -15,25 +15,26 @@ This repository provides the official implementation for [A Unified Implicit Att
 
 The purpose of this repository is to provide tools for the explainability and interpretability of modern sub-quadratic architectures, based on implicit attention representation.
 
-<div style="display: flex; justify-content: space-around; align-items: flex-start;">
-    <!-- Section for supported models -->
-    <div>
-        <h3> Supported Models:</h3>
-        <ul class="no-bullets">
-            <li><a href="https://arxiv.org/abs/2312.00752">Mamba</a></li>
-            <li><a href="https://arxiv.org/abs/2402.19427">Griffin</a></li>
-            <li><a href="https://arxiv.org/abs/2305.13048">RWKV</a></li>
-            <li><a href="https://arxiv.org/abs/2401.09417">Vision Mamba</a></li>
-        </ul>
-    </div>
-    <center>
-    <div>
-        <img src="assets/MainFig.jpg" alt="Left Image" width="500" height="200">
-        <br>
-        <img src="assets/AttnMatandXAI.jpg" alt="Left Image" width="500" height="200">
-    </div>
-    </center>
+
+<div>
+    <h3> Supported Models:</h3>
+    <ul class="no-bullets">
+        <li><a href="https://arxiv.org/abs/2312.00752">Mamba</a></li>
+        <li><a href="https://arxiv.org/abs/2402.19427">Griffin</a></li>
+        <li><a href="https://arxiv.org/abs/2305.13048">RWKV</a></li>
+        <li><a href="https://arxiv.org/abs/2401.09417">Vision Mamba</a></li>
+    </ul>
 </div>
+<br>
+<br>
+<center>
+<div>
+<img src="assets/MainFig.jpg" alt="Left Image" width="500" height="200">
+<br>
+<img src="assets/AttnMatandXAI.jpg" alt="Left Image" width="500" height="200">
+</div>
+</center>
+
 
 
 ## Usage:
@@ -44,6 +45,8 @@ We provide the following Jupyter notebooks ('I' denotes installation instruction
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](todo) (see [I](RWKV&GriffinInstall.md)) 
  - [Mamba](todo) (see [I](MambaNLPInstall.md))
  - [Vision Mamba](todo) (see [I](MambaVisionInstall.md))
+ - * Heatmaps Extraction (Coming Soon!)
+   * Segmentation (Coming Soon!)
 
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
