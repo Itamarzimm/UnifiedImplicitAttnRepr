@@ -51,7 +51,14 @@ We provide the following Jupyter notebooks ('I' denotes installation instruction
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
 ```latex
-todo
+@misc{zimerman2024unified,
+      title={A Unified Implicit Attention Formulation for Gated-Linear Recurrent Sequence Models}, 
+      author={Itamar Zimerman and Ameen Ali and Lior Wolf},
+      year={2024},
+      eprint={2405.16504},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 ## Acknowledgement:
