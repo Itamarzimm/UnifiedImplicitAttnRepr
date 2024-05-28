@@ -11,7 +11,7 @@ itamarzimm@gmail.com, ameenali023@gmail.com, liorwolf@gmail.com
 <br>
 <br>
 
-This repository provides the official implementation for [A Unified Implicit Attention Formulation for Gated-Linear Recurrent Sequence](TODO). 
+This repository provides the official implementation for [A Unified Implicit Attention Formulation for Gated-Linear Recurrent Sequence](https://arxiv.org/abs/2405.16504). 
 
 The purpose of this repository is to provide tools for the explainability and interpretability of modern sub-quadratic architectures, based on implicit attention representation.
 
