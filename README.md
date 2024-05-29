@@ -40,7 +40,7 @@ The purpose of this repository is to provide tools for the explainability and in
 ## Usage:
 We provide the following Jupyter notebooks ('I' denotes installation instructions.):
 - RWKV
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](todo) (see [I](RWKV&GriffinInstall.md)) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yK3WD17uJYApvt7NVRiWZfkcC4kdzftk?usp=sharing) (see [I](RWKV&GriffinInstall.md)) 
  - Griffin 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](todo) (see [I](RWKV&GriffinInstall.md)) 
  - [Mamba](todo) (see [I](MambaNLPInstall.md))
