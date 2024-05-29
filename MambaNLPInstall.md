@@ -7,7 +7,6 @@
 - pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
 - pip install packaging
 - pip install causal-conv1d==1.1.0
-- git clone git@github.com:Itamarzimm/MambaAccurateHiddenAttnNLP.git
 - cd MambaNLP
 - pip install -e . 
 - git clone https://github.com/EleutherAI/lm-evaluation-harness.git -b big-refactor
