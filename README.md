@@ -40,11 +40,11 @@ The purpose of this repository is to provide tools for the explainability and in
 ## Usage:
 We provide the following Jupyter notebooks ('I' denotes installation instructions.):
 - RWKV
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yK3WD17uJYApvt7NVRiWZfkcC4kdzftk?usp=sharing) (see [I](RWKV&GriffinInstall.md)) 
+[Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/RWKVImplicitAttnDemo.ipynb) , [I](RWKV&GriffinInstall.md)
  - Griffin 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](todo) (see [I](RWKV&GriffinInstall.md)) 
- - [Mamba](todo) (see [I](MambaNLPInstall.md))
- - [Vision Mamba](todo) (see [I](MambaVisionInstall.md))
+[Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/GriffinImplicitAttnDemo.ipynb), [I](RWKV&GriffinInstall.md)
+ - Mamba [Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/MambaNLP/MambaIpmlicitAttnDemo.ipynb), [I](MambaNLPInstall.md)
+ - Vision Mamba (Coming Soon!) 
  - * Heatmaps Extraction (Coming Soon!)
    * Segmentation (Coming Soon!)
 
