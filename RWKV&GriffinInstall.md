@@ -2,6 +2,7 @@
 - conda create -n your_env_name python=3.10.13
 - conda activate your_env_name
 - git clone git@github.com:Itamarzimm/UnifiedImplicitAttnRepr.git
+- cd UnifiedImplicitAttnRepr
 - cd HF
 - conda install nvidia/label/cuda-11.8.0::cuda-toolkit
 - pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
