@@ -1,5 +1,5 @@
 <div align="center">
-<h1> A Unified Implicit Attention Formulation for Gated-Linear Recurrent Sequence Models </h1>
+<h1> Explaining Modern Gated-Linear RNNs via A Unified Implicit Attention Formulation </h1>
 Itamar Zimerman<sup>1</sup> *, Ameen Ali<sup>1</sup> * and Lior Wolf<sup>1</sup>
 <br>
 itamarzimm@gmail.com, ameenali023@gmail.com, liorwolf@gmail.com 
@@ -11,7 +11,7 @@ itamarzimm@gmail.com, ameenali023@gmail.com, liorwolf@gmail.com
 <br>
 <br>
 
-This repository provides the official implementation for [A Unified Implicit Attention Formulation for Gated-Linear Recurrent Sequence](https://arxiv.org/abs/2405.16504). 
+This repository provides the official implementation for [Explaining Modern Gated-Linear RNNs via A Unified Implicit Attention Formulation](https://arxiv.org/abs/2405.16504). 
 
 The purpose of this repository is to provide tools for the explainability and interpretability of modern sub-quadratic architectures, based on implicit attention representation.
 
