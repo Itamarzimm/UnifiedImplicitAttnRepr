@@ -1,5 +1,6 @@
 <div align="center">
-<h1> Explaining Modern Gated-Linear RNNs via A Unified Implicit Attention Formulation </h1>
+<h1> Explaining Modern Gated-Linear RNNs via a Unified Implicit Attention Formulation
+ </h1>
 Itamar Zimerman<sup>1</sup> *, Ameen Ali<sup>1</sup> * and Lior Wolf<sup>1</sup>
 <br>
 itamarzimm@gmail.com, ameenali023@gmail.com, liorwolf@gmail.com 
@@ -40,10 +41,10 @@ The purpose of this repository is to provide tools for the explainability and in
 ## Usage:
 We provide the following Jupyter notebooks ('I' denotes installation instructions.):
 - RWKV
-[Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/RWKVImplicitAttnDemo.ipynb) , [I](RWKV&GriffinInstall.md)
+[Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/RWKVImplicitAttnDemo.ipynb) , [GriffinInstall](RWKV&GriffinInstall.md)
  - Griffin 
-[Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/GriffinImplicitAttnDemo.ipynb), [I](RWKV&GriffinInstall.md)
- - Mamba [Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/MambaNLP/MambaIpmlicitAttnDemo.ipynb), [I](MambaNLPInstall.md)
+[Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/GriffinImplicitAttnDemo.ipynb), [GriffinInstall](RWKV&GriffinInstall.md)
+ - Mamba [Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/MambaNLP/MambaIpmlicitAttnDemo.ipynb), [MambaNLPInstall](MambaNLPInstall.md)
 
  ## Vision
  * For the segmentation experiemt:
@@ -56,13 +57,13 @@ We provide the following Jupyter notebooks ('I' denotes installation instruction
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
 ```latex
-@misc{zimerman2024unified,
-      title={A Unified Implicit Attention Formulation for Gated-Linear Recurrent Sequence Models}, 
-      author={Itamar Zimerman and Ameen Ali and Lior Wolf},
-      year={2024},
-      eprint={2405.16504},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+zimerman2025explaining,
+title={Explaining Modern Gated-Linear {RNN}s via a Unified Implicit Attention Formulation},
+author={Itamar Zimerman and Ameen Ali Ali and Lior Wolf},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=wnT8bfJCDx}
 }
 ```
 
