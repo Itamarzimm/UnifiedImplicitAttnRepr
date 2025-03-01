@@ -44,9 +44,14 @@ We provide the following Jupyter notebooks ('I' denotes installation instruction
  - Griffin 
 [Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/HF/GriffinImplicitAttnDemo.ipynb), [I](RWKV&GriffinInstall.md)
  - Mamba [Notebook](https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/blob/main/MambaNLP/MambaIpmlicitAttnDemo.ipynb), [I](MambaNLPInstall.md)
- - Vision Mamba (Coming Soon!) 
- - * Heatmaps Extraction (Coming Soon!)
-   * Segmentation (Coming Soon!)
+
+ ## Vision
+ * For the segmentation experiemt:
+    1. Download the data [gtsegs_ijcv.mat](http://calvin-vision.net/bigstuff/proj-imagenet/data/gtsegs_ijcv.mat) and put it under '/UnifiedImplicitAttnRepr/MambaVision'
+    2. Configure Checkpoint path at line 466 in imagenet_seg.eval.py (You can download the checkpoint from [vim_s_midclstok_80p5acc.pth](https://huggingface.co/hustvl/Vim-small-midclstok/blob/main/vim_s_midclstok_80p5acc.pth) and put it under '/UnifiedImplicitAttnRepr/MambaVision')
+    3. run 'python ./UnifiedImplicitAttnRepr/MambaVision/imagenet_seg_eval.py'
+* For Heatmap Extraction follow the notebook in './UnifiedImplicitAttnRepr/MambaVision/Inference.ipynb'
+
 
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
